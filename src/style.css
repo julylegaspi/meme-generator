@@ -1,0 +1,46 @@
+/* Container holding the image and the text */
+.meme_container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+/* Top center text */
+.top-center{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    font-family: impact;
+    font-size: 2em;
+}
+
+/* Bottom center text */
+.bottom-center {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    font-family: impact;
+    font-size: 2em;
+}
